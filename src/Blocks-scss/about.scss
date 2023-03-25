@@ -1,0 +1,41 @@
+.about{
+    &__items{
+        
+    }
+    &__head{
+        text-align: center;
+        font-size: 20pt;
+    }
+    &__text{
+        text-align: center;
+        font-size: 15pt;
+        margin-bottom: 2rem;
+    }
+    &__my-photo{
+        margin: 2rem 4rem;
+        border-radius: 50px;
+        border: solid 2px white;
+    }
+    &__list{
+        font-size: 14pt;
+        margin-bottom: 5rem;
+    }
+    &__link{
+        font-size: 13pt;
+        padding-top: 1rem;
+        list-style: circle;
+    }
+    &__call{
+        line-height: 1.5;
+        font-size: 11pt;
+        padding-top: 3rem;
+        text-align: center;
+        height: 15rem;
+        background-color: $secondary;
+        width: 100%;
+        bottom: 0;
+    }
+    &__call a:hover{
+        color: darken(white, 10%);
+    }
+}

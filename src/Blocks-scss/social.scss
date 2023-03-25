@@ -1,0 +1,12 @@
+.social{
+    display: flex;
+    justify-content: center;
+    &__items{
+        margin: 0 .75rem;
+    }
+    
+}
+.bi-github{
+    color: $white;
+    margin-top: 1px;
+}

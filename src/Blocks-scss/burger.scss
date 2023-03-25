@@ -1,0 +1,52 @@
+.burger{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: #0D0D0D;
+    position: fixed;
+    z-index: 50;
+  
+    &__btn{
+        width: 30px;
+        height: 20px;
+        position: relative;
+        margin-left: 20px;
+       cursor: pointer;
+    }
+    &__btn::after{
+        content: '';
+        position:absolute;
+        width: 30px;
+        background-color: white;
+        height: 2px;
+    }
+    &__btn::before{
+        content: '';
+        position:absolute;
+        bottom: 2px;
+        width: 30px;
+        background-color: white; 
+        height: 2px;
+    }
+    &__btn span{
+        position:absolute;
+        top: 8px;
+        width: 30px;
+        background-color: white; 
+        height: 2px;
+    }
+    &__input{
+        position: absolute;
+        right: 0;
+        background: $secondary;
+        border: 0;
+        height: 30px;
+        color: white;
+        opacity: .6;
+        padding-left: 2rem;
+    }
+}
+.main-burger{
+    height: 0;
+}

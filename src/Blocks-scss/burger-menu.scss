@@ -1,0 +1,41 @@
+.menu{
+    position: relative;
+    
+    top: 30px;
+    left: 0;
+    transform: translateX(-100%);
+    transition: .8s;
+    &__content{
+        width: 100%;
+        height: 100%;
+        background: #0D0D0D;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    &__section{
+        margin-left: 3rem;
+        margin-top: 20px;
+    }
+    &__link{
+        text-decoration: none;
+        color: white;
+        opacity: .8;
+        font-weight: 400;
+        &:hover{
+            color: #107EFF;
+        }
+    }
+    &__buttons{
+        display: flex;
+        margin-top: 6rem;
+        justify-content: center;
+    }
+}
+
+.menu.active{
+    transform: translateX(0);
+    transition: .8s;
+    width: 100vw;
+    height: 100vh;
+}

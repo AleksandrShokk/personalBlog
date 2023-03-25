@@ -1,0 +1,51 @@
+.post {
+    background-color: $primary;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    box-shadow: 3px 10px 10px 0px black;
+    margin-bottom: 3rem;
+    
+    &__items {
+        padding: 0px 27px 25px 27px;
+        
+    }
+
+    &__pic {
+        width: 100%;
+        padding-bottom: 2.5rem;
+        
+    }
+
+    &__title {
+        margin-bottom: 2.5rem;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    &__text {
+        color: #d2d2d2;
+    }
+
+    &__date {
+        padding-right: 4rem;
+        color: #828282;
+        
+    }
+    &__read {
+        text-decoration: none;
+        color: #107EFF;
+        font-size: 18px;
+        
+    }
+}
+
+.underpost-text{
+    display: flex;
+
+    padding: 0 2.5rem 2rem 2.5rem;
+    justify-content: space-between;
+}
+.main-post{
+    margin-top: 5rem;
+}

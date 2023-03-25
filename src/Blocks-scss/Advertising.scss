@@ -1,0 +1,29 @@
+.ad {
+	margin: 6rem 0;
+
+	&__items {
+		display: grid;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&-form {
+		display: grid;
+	}
+	&__title {
+		font-size: 21px;
+		font-family: 'Roboto';
+		font-weight: 500;
+		margin-bottom: 6rem;
+	}
+	&-input {
+		flex-wrap: wrap;
+		background-color: transparent;
+		color: white;
+		border: 0;
+		width: 34rem;
+		height: 3rem;
+		margin-bottom: 3.5rem;
+		border-bottom: 1px solid #107eff;
+	}
+}

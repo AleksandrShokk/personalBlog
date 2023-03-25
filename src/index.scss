@@ -1,0 +1,56 @@
+@import 'vars';
+@import 'reset';
+
+html {
+	font-size: 62.5%;
+}
+.wrapper.active {
+	display: block;
+}
+
+.wrapper {
+	display: none;
+}
+
+body {
+	background-color: #181818;
+	font-size: 1.4rem;
+	color: $white;
+	line-height: 1.5;
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+		Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	&.no-scroll {
+		overflow: hidden;
+	}
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/* Blocks */
+@import 'Blocks-scss/header';
+@import 'Blocks-scss/page';
+@import 'Blocks-scss/nav';
+@import 'Blocks-scss/subnav';
+@import 'Blocks-scss/search';
+@import 'Blocks-scss/sidebar';
+@import 'Blocks-scss/main';
+@import 'Blocks-scss/container';
+@import 'Blocks-scss/profile';
+@import 'Blocks-scss/social';
+@import 'Blocks-scss/button';
+@import 'Blocks-scss/add-post';
+@import 'Blocks-scss/post';
+@import 'Blocks-scss/media-query';
+@import 'Blocks-scss/burger';
+@import 'Blocks-scss/burger-menu';
+@import 'Blocks-scss/about';
+@import 'Blocks-scss/modal';
+@import 'Blocks-scss/Advertising.scss';
